@@ -13,7 +13,7 @@
 const SITE_CONFIG = {
   WHATSAPP_NUMBER: "27607739974",
   BUSINESS_EMAIL: "shadesweetscoops@gmail.com",
-  BRAND_NAME: "Shade's Sweet Scoops Candles",
+  BRAND_NAME: "Sweet Scoops Candles",
   TIKTOK_HANDLE: "sweetscoopcandles",
   TIKTOK_URL: "https://www.tiktok.com/@sweetscoopcandles",
   SITE_URL: "https://sweetscoopcandles.co.za"
@@ -241,13 +241,13 @@ function initFaqAccordion(){
    ----------------------------------------------------------------- */
 function wireContactLinks(){
   document.querySelectorAll("[data-whatsapp-link]").forEach(function(el){
-    const msg = el.getAttribute("data-whatsapp-message") || "Hi! I'd like to find out more about Shade's Sweet Scoops Candles.";
+    const msg = el.getAttribute("data-whatsapp-message") || "Hi! I'd like to find out more about Sweet Scoops Candles.";
     el.href = buildWhatsAppLink(msg);
     el.target = "_blank";
     el.rel = "noopener";
   });
   document.querySelectorAll("[data-mailto-link]").forEach(function(el){
-    const subject = el.getAttribute("data-mail-subject") || "Enquiry - Shade's Sweet Scoops Candles";
+    const subject = el.getAttribute("data-mail-subject") || "Enquiry - Sweet Scoops Candles";
     const body = el.getAttribute("data-mail-body") || "";
     el.href = buildMailtoLink(subject, body);
   });

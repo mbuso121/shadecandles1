@@ -1,6 +1,6 @@
 /* =================================================================
    PRODUCTS.JS
-   Product catalogue for Shade's Sweet Scoops Candles.
+   Product catalogue for Sweet Scoops Candles.
    Loaded before every other page script — do not use `import`.
    ================================================================= */
 

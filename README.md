@@ -1,6 +1,6 @@
-# Shade's Sweet Scoops Candles — Website
+# Sweet Scoops Candles — Website
 
-A multi-page website for Shade's Sweet Scoops Candles, a handmade, ice-cream-inspired
+A multi-page website for Sweet Scoops Candles, a handmade, ice-cream-inspired
 candle brand. Built with plain HTML, CSS and JavaScript — no build step, no
 frameworks, no backend. It can be opened directly in a browser or uploaded to any
 static web host.
@@ -18,7 +18,7 @@ this is the only place these values live:
 const SITE_CONFIG = {
   WHATSAPP_NUMBER: "27XXXXXXXXX", // international format, digits only, no "+" or leading 0
   BUSINESS_EMAIL: "shadesweetscoops@gmail.com",
-  BRAND_NAME: "Shade's Sweet Scoops Candles",
+  BRAND_NAME: "Sweet Scoops Candles",
   INSTAGRAM_HANDLE: "@shadessweetscoopscandles"
 };
 ```
@@ -154,7 +154,7 @@ What only you can do, once the domain is live:
    verification option for this), then submit `https://yourdomain.co.za/sitemap.xml`
    under Sitemaps so Google knows to crawl it.
 3. **Google Business Profile** ([google.com/business](https://www.google.com/business)):
-   create a free profile for Shade's Sweet Scoops Candles — this is what makes
+   create a free profile for Sweet Scoops Candles — this is what makes
    the business show up on Google Maps and in local search results, separate
    from the website itself.
 4. **`sameAs` in the homepage's structured data**: once you have confirmed,

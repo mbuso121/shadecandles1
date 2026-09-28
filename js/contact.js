@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function(){
     e.preventDefault();
     if(!validate()) return;
 
-    const subject = "New Enquiry (" + reasonSelect.value + ") - Shade's Sweet Scoops Candles";
+    const subject = "New Enquiry (" + reasonSelect.value + ") - Sweet Scoops Candles";
     const body = buildMessageBody();
     window.location.href = buildMailtoLink(subject, body);
 
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function(){
     whatsappBtn.addEventListener("click", function(){
       const message = nameInput.value.trim() || messageInput.value.trim()
         ? buildMessageBody()
-        : "Hi! I'd like to find out more about Shade's Sweet Scoops Candles.";
+        : "Hi! I'd like to find out more about Sweet Scoops Candles.";
       window.open(buildWhatsAppLink(message), "_blank", "noopener");
     });
   }

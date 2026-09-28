@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(){
   if(!product){
     root.style.display = "none";
     if(notFoundRoot) notFoundRoot.style.display = "block";
-    document.title = "Product Not Found — Shade's Sweet Scoops Candles";
+    document.title = "Product Not Found — Sweet Scoops Candles";
     return;
   }
 
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function(){
   renderRelated(product);
 
   function renderProduct(p){
-    document.title = p.name + " — Shade's Sweet Scoops Candles";
+    document.title = p.name + " — Sweet Scoops Candles";
 
     const metaDesc = document.querySelector('meta[name="description"]');
     if(metaDesc) metaDesc.setAttribute("content", p.description);
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function(){
     const siteUrl = (typeof SITE_CONFIG !== "undefined" && SITE_CONFIG.SITE_URL) ? SITE_CONFIG.SITE_URL : "";
     const pageUrl = siteUrl + "/product.html?id=" + p.id;
     const imageUrl = siteUrl + "/" + p.image;
-    const fullTitle = p.name + " — Shade's Sweet Scoops Candles";
+    const fullTitle = p.name + " — Sweet Scoops Candles";
 
     const canonical = document.getElementById("canonicalLink");
     if(canonical) canonical.setAttribute("href", pageUrl);
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function(){
       "description": p.description,
       "image": imageUrl,
       "url": pageUrl,
-      "brand": { "@type": "Brand", "name": "Shade's Sweet Scoops Candles" },
+      "brand": { "@type": "Brand", "name": "Sweet Scoops Candles" },
       "offers": {
         "@type": "Offer",
         "url": pageUrl,

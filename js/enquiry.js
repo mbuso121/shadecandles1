@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function(){
     sendEmailBtn.addEventListener("click", function(){
       if(!validate()) return;
       const message = buildOrderMessage();
-      window.location.href = buildMailtoLink("New Product Enquiry - Shade's Sweet Scoops Candles", message);
+      window.location.href = buildMailtoLink("New Product Enquiry - Sweet Scoops Candles", message);
     });
   }
 
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function(){
     const items = Cart.getItems();
 
     const lines = [];
-    lines.push("New Product Enquiry - Shade's Sweet Scoops Candles");
+    lines.push("New Product Enquiry - Sweet Scoops Candles");
     lines.push("");
     lines.push("Customer Name: " + (name || "-"));
     lines.push("Customer Contact: " + (contact || "-"));
